@@ -6,7 +6,7 @@ const char* password = "";                              //fill in your wifi pass
 WiFiClient client;
  
 int sensorPin = A0;    // input for LDR and rain sensor
-int enable2 = 13;      // enable reading Rain sensor
+int enable2 = 13;      // enable reading Rain sensor D7 Pin
 int sensorValue2 = 0;  // variable to store the value coming from sensor Rain sensor
  
  
